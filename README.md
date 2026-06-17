@@ -1,6 +1,20 @@
 # Smart Email Classifier & Rewriter
 
-## Overview
+## Live Demo
+
+### Frontend Application
+
+https://kasireddy627.github.io/smart-email-classifier-rewriter/
+
+### Backend API
+
+https://smart-email-classifier-rewriter-0i9f.onrender.com
+
+### FastAPI Interactive API Documentation
+
+https://smart-email-classifier-rewriter-0i9f.onrender.com/docs
+
+## Overview of the project
 
 Smart Email Classifier & Rewriter is a Generative AI application built using FastAPI, LangChain, and Groq.
 
