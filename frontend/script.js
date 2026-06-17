@@ -3,7 +3,7 @@ async function classifyEmail() {
     const email = document.getElementById("classifyEmail").value;
 
     const response = await fetch(
-        "http://127.0.0.1:8000/classify_email",
+            "https://smart-email-classifier-rewriter-0i9f.onrender.com/classify_email",
         {
             method: "POST",
             headers: {
@@ -27,7 +27,7 @@ async function rewriteEmail() {
     const tone = document.getElementById("tone").value;
 
     const response = await fetch(
-        "http://127.0.0.1:8000/rewrite_email",
+            "https://smart-email-classifier-rewriter-0i9f.onrender.com/rewrite_email",
         {
             method: "POST",
             headers: {
