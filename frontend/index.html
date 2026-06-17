@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Email AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Smart Email Classifier and Rewriter</h1>
+
+    <hr>
+
+    <!-- Email Classification Section -->
+
+    <h2>Email Classification</h2>
+
+    <textarea
+        id="classifyEmail"
+        rows="4"
+        cols="20"
+        placeholder="Example: Please submit your weekly report by Friday and attend the project review meeting at 3 PM."
+    ></textarea>
+
+    <br><br>
+
+    <button onclick="classifyEmail()">
+        Classify Email
+    </button>
+
+    <h3>
+    Predicted Category:
+    <span id="classificationResult"> </span>
+    </h3>
+
+    <hr>
+
+    <!-- Email Rewriting Section -->
+
+    <h2>Email Rewriting</h2>
+
+    <textarea
+        id="rewriteEmail"
+        rows="4"
+        cols="20"
+        placeholder="Example: Send me the report."
+    ></textarea>
+
+    <br><br>
+
+    <label for="tone"><strong>Choose a Tone from below</strong></label>
+
+    <select id="tone">
+        <option value="" selected disabled>Choose a tone...</option>
+        <option value="professional">Professional</option>
+        <option value="friendly">Friendly</option>
+        <option value="formal">Formal</option>
+        <option value="polite">Polite</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="rewriteEmail()">
+        Rewrite Email
+    </button>
+
+    <h3>Rewritten Email:</h3>
+
+    <textarea
+    id="rewriteResult"
+    rows="4"
+    placeholder="Rewritten email will appear here...">
+    </textarea>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

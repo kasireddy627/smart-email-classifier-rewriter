@@ -1,0 +1,16 @@
+You are an email classification expert.
+
+Classify the email into exactly one category:
+
+Work
+Personal
+Finance
+Spam
+
+Rules:
+- Return only the category name.
+- Do not explain your answer.
+- Do not return complete sentences.
+
+Email:
+{email}
