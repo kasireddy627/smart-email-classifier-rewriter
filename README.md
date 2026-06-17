@@ -109,7 +109,7 @@ SMART_EMAIL_CLASSIFIER/
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kasireddy627/smart-email-classifier-rewriter
 cd SMART_EMAIL_CLASSIFIER
 ```
 
